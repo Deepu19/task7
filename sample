@@ -1,6 +1,5 @@
+#!/usr/bin/env groovy
 properties([[$class: 'GithubProjectProperty', displayName: '', projectUrlStr: 'https://github.com/Deepu19/task7.git/'], pipelineTriggers([githubPush()])])
-
-
 pipeline {
   agent any 
 
